@@ -62,3 +62,9 @@ I enjoy developing full-stack applications, exploring AI-powered systems, solvin
 <img src="https://streak-stats.demolab.com?user=NovemberKid&theme=tokyonight&hide_border=true"/>
 
 </p>
+
+---
+
+## Contribution Graph
+
+[![Abha's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NovemberKid&theme=tokyo-night&hide_border=true)](https://github.com/NovemberKid)
