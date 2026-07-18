@@ -1,7 +1,7 @@
 <p align="center">
   <img src="Banner.png" alt="Banner" width="100%">
 </p>
-# Hi, I'm Abha
+Hi, I'm Abha
 
 Computer Science undergraduate with a passion for building software that solves real-world problems.
 
