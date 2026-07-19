@@ -1,120 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%" height="100%">
   <defs>
-    <!-- Cyan to Magenta Glass Edge Gradient -->
     <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00FFFF" stop-opacity="0.8" />
       <stop offset="50%" stop-color="#8A2BE2" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#FF00FF" stop-opacity="0.8" />
     </linearGradient>
+
+    <!-- NEW: Glass Shine Effect Gradient & Clip Path -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FFFF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="cards-clip">
+      <rect x="25" y="80" width="235" height="220" rx="10"/>
+      <rect x="282" y="80" width="235" height="220" rx="10"/>
+      <rect x="540" y="80" width="235" height="220" rx="10"/>
+    </clipPath>
   </defs>
 
   <style>
-    /* Glassmorphism Panel Styles */
-    .card-bg { 
-      fill: rgba(10, 15, 30, 0.4); 
-      stroke: url(#glassGrad); 
-      stroke-width: 1.5; 
-      rx: 10; 
-    }
-    
-    /* Text Styles */
-    .title { 
-      font-family: 'Courier New', Courier, monospace; 
-      font-size: 16px; 
-      font-weight: bold; 
-      fill: #00FFFF; 
-      letter-spacing: 2px; 
-    }
-    .card-title { 
-      font-family: 'Courier New', Courier, monospace; 
-      font-size: 14px; 
-      font-weight: bold; 
-      fill: #FFFFFF; 
-    }
-    .card-text { 
-      font-family: 'Courier New', Courier, monospace; 
-      font-size: 11px; 
-      fill: #E6EDF3; 
-    }
-    .tag-text { 
-      font-family: 'Courier New', Courier, monospace; 
-      font-size: 11px; 
-      fill: #FF00FF; 
-      font-weight: bold; 
-    }
-    .line { 
-      stroke: #00FFFF; 
-      stroke-width: 1; 
-      opacity: 0.4; 
-    }
-
-    /* Asynchronous Floating Animations */
-    .float1 { animation: float 6s ease-in-out infinite; }
-    .float2 { animation: float 6s ease-in-out infinite 2s; }
-    .float3 { animation: float 6s ease-in-out infinite 4s; }
-    
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); filter: drop-shadow(0 4px 6px rgba(0,255,255,0.2)); }
-    }
+    .card-bg { fill: rgba(10, 15, 30, 0.4); stroke: url(#glassGrad); stroke-width: 1.5; rx: 10; }
+    .title { font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold; fill: #00FFFF; letter-spacing: 2px; }
+    .card-title { font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: bold; fill: #FFFFFF; }
+    .card-text { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #E6EDF3; }
+    .tag-text { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #FF00FF; font-weight: bold; }
+    .line { stroke: #00FFFF; stroke-width: 1; opacity: 0.4; }
   </style>
 
-  <!-- Section Header -->
   <text x="25" y="35" class="title">PROJECTS_ARCHIVE &amp; DEPLOYMENTS</text>
   <line class="line" x1="25" y1="45" x2="350" y2="45" />
 
-  <!-- CARD 1: Disaster Response Command Center -->
-  <g class="float1">
+  <g>
     <rect x="25" y="80" width="235" height="220" class="card-bg" />
-    
     <text x="40" y="110" class="card-title">Disaster Response</text>
     <text x="40" y="125" class="card-title">Command Center</text>
     <line class="line" x1="40" y1="140" x2="240" y2="140" />
-    
     <text x="40" y="165" class="card-text">Full-stack CV dashboard</text>
     <text x="40" y="180" class="card-text">for real-time disaster</text>
     <text x="40" y="195" class="card-text">risk &amp; object tracking.</text>
-
-    <!-- Tech Stack Tags -->
-    <text x="40" y="235" class="tag-text">[ React ]</text>
-    <text x="115" y="235" class="tag-text">[ FastAPI ]</text>
-    <text x="40" y="260" class="tag-text">[ PostgreSQL ]</text>
-    <text x="145" y="260" class="tag-text">[ YOLO ]</text>
+    <text x="40" y="235" class="tag-text">[ React ]</text> <text x="115" y="235" class="tag-text">[ FastAPI ]</text>
+    <text x="40" y="260" class="tag-text">[ PostgreSQL ]</text> <text x="145" y="260" class="tag-text">[ YOLO ]</text>
   </g>
 
-  <!-- CARD 2: DroneVision -->
-  <g class="float2">
+  <g>
     <rect x="282" y="80" width="235" height="220" class="card-bg" />
-    
     <text x="297" y="110" class="card-title">DroneVision</text>
     <text x="297" y="125" class="card-title">Wildlife System</text>
     <line class="line" x1="297" y1="140" x2="497" y2="140" />
-    
     <text x="297" y="165" class="card-text">AI wildlife monitoring</text>
     <text x="297" y="180" class="card-text">processing drone feeds</text>
     <text x="297" y="195" class="card-text">with YOLOv8 recognition.</text>
-
-    <!-- Tech Stack Tags -->
-    <text x="297" y="235" class="tag-text">[ Python ]</text>
-    <text x="375" y="235" class="tag-text">[ OpenCV ]</text>
+    <text x="297" y="235" class="tag-text">[ Python ]</text> <text x="375" y="235" class="tag-text">[ OpenCV ]</text>
     <text x="297" y="260" class="tag-text">[ YOLOv8 ]</text>
   </g>
 
-  <!-- CARD 3: Expense Tracker -->
-  <g class="float3">
+  <g>
     <rect x="540" y="80" width="235" height="220" class="card-bg" />
-    
     <text x="555" y="110" class="card-title">Expense &amp; Goal</text>
     <text x="555" y="125" class="card-title">Tracker</text>
     <line class="line" x1="555" y1="140" x2="755" y2="140" />
-    
     <text x="555" y="165" class="card-text">Interactive dashboard</text>
     <text x="555" y="180" class="card-text">to track spending, set</text>
     <text x="555" y="195" class="card-text">goals &amp; monitor savings.</text>
-
-    <!-- Tech Stack Tags -->
-    <text x="555" y="235" class="tag-text">[ Python ]</text>
-    <text x="635" y="235" class="tag-text">[ Streamlit ]</text>
+    <text x="555" y="235" class="tag-text">[ Python ]</text> <text x="635" y="235" class="tag-text">[ Streamlit ]</text>
     <text x="555" y="260" class="tag-text">[ Pandas ]</text>
   </g>
+
+  <!-- NEW: The Animated Diagonal Glass Scan -->
+  <rect x="-300" y="80" width="150" height="220" fill="url(#shine)" clip-path="url(#cards-clip)" transform="skewX(-20)">
+    <animate attributeName="x" values="-300; 1000; 1000" dur="6s" repeatCount="indefinite" />
+  </rect>
 </svg>
