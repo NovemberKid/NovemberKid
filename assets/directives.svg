@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <!-- Cyan to Magenta Glass Edge Gradient -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#8A2BE2" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF00FF" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* Glassmorphism Panel Styles */
+    .panel { 
+      fill: rgba(10, 15, 30, 0.4); 
+      stroke: url(#glassGrad); 
+      stroke-width: 1.5; 
+      rx: 12; 
+    }
+    
+    /* Text Styles */
+    .title { 
+      font-family: 'Courier New', Courier, monospace; 
+      font-size: 16px; 
+      font-weight: bold; 
+      fill: #00FFFF; 
+      letter-spacing: 2px; 
+    }
+    .text-main { 
+      font-family: 'Courier New', Courier, monospace; 
+      font-size: 13px; 
+      fill: #E6EDF3; 
+    }
+    .text-highlight { 
+      fill: #FF00FF; 
+      font-weight: bold; 
+    }
+    .category { 
+      font-family: 'Courier New', Courier, monospace; 
+      font-size: 14px; 
+      font-weight: bold; 
+      fill: #00FFFF; 
+    }
+    .stack-item { 
+      font-family: 'Courier New', Courier, monospace; 
+      font-size: 13px; 
+      fill: #E6EDF3; 
+    }
+    .line { 
+      stroke: #00FFFF; 
+      stroke-width: 1; 
+      opacity: 0.4; 
+    }
+  </style>
+  
+  <!-- DIRECTIVES PANEL -->
+  <rect class="panel" x="10" y="10" width="780" height="120" />
+  <text x="30" y="40" class="title">SYSTEM PROTOCOLS &amp; CURRENT DIRECTIVES</text>
+  <line class="line" x1="30" y1="50" x2="400" y2="50" />
+  
+  <text x="30" y="75" class="text-main"><tspan class="text-highlight">CORE_SYSTEMS:</tspan> Full-Stack Web Dev, Artificial Intelligence, and Autonomous UAVs.</text>
+  <text x="30" y="95" class="text-main"><tspan class="text-highlight">CURRENT_MISSION:</tspan> Bridging software and hardware through open-source R&amp;D.</text>
+  <text x="30" y="115" class="text-main"><tspan class="text-highlight">STATUS:</tspan> 2026 DEPLOYMENT</text>
+
+  <!-- TECH STACK PANEL -->
+  <rect class="panel" x="10" y="150" width="780" height="160" />
+  <text x="30" y="180" class="title">WEAPONRY &amp; TECH STACK</text>
+  <line class="line" x1="30" y1="190" x2="260" y2="190" />
+  
+  <!-- Stack Columns -->
+  <text x="30" y="225" class="category">[ LANGUAGES ]</text>
+  <text x="30" y="245" class="stack-item">C++ // PYTHON // JAVA</text>
+
+  <text x="300" y="225" class="category">[ FRONTEND ]</text>
+  <text x="300" y="245" class="stack-item">REACT // JAVASCRIPT // TAILWIND</text>
+
+  <text x="570" y="225" class="category">[ DATABASE ]</text>
+  <text x="570" y="245" class="stack-item">SQL</text>
+
+  <text x="30" y="280" class="category">[ AI, VISION &amp; AUTONOMY ]</text>
+  <text x="30" y="300" class="stack-item">PYTORCH // MATLAB // COMPUTER VISION</text>
+</svg>
