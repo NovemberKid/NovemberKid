@@ -18,7 +18,6 @@
       <stop offset="100%" stop-color="#FF00FF" />
     </linearGradient>
     
-    <!-- Clipping mask anchored strictly to the BOTTOM LEFT -->
     <clipPath id="typing-clip">
       <rect x="25" y="240" width="0" height="30">
         <animate attributeName="width" values="0; 360; 360; 0" keyTimes="0; 0.35; 0.75; 1" dur="4s" repeatCount="indefinite" />
@@ -52,7 +51,6 @@
 
   <text x="50%" y="58%" text-anchor="middle" class="name-text">ABHA SINGH</text>
 
-  <!-- ROLES ANCHORED BOTTOM LEFT -->
   <g opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0; 0.33; 0.331; 0.66; 0.661; 1" dur="12s" repeatCount="indefinite" />
     <text x="25" y="260" class="terminal-text" clip-path="url(#typing-clip)">&gt; Role: Full-Stack Engineer</text>
@@ -66,7 +64,6 @@
     <text x="25" y="260" class="terminal-text" clip-path="url(#typing-clip)">&gt; Role: UAV &amp; Autonomous Systems</text>
   </g>
 
-  <!-- TELEMETRY MOVED TO BOTTOM RIGHT -->
   <text x="490" y="200" class="terminal-text">SYSTEM_STATUS: ONLINE</text>
   <text x="490" y="220" class="terminal-text">OPEN_SOURCE_PROTOCOLS: ACTIVE</text>
   <text x="490" y="240" class="terminal-text">OPERATIONAL_SCOPE: WEB // AI // UAV</text>
