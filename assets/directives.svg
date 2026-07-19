@@ -1,23 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
   <defs>
-    <!-- Cyan to Magenta Glass Edge Gradient -->
+    <!-- Animated Color-Shifting Glass Edge Gradient -->
     <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#00FFFF;#FF00FF;#00FFFF" dur="8s" repeatCount="indefinite" />
+      </stop>
       <stop offset="50%" stop-color="#8A2BE2" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#FF00FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF00FF" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#FF00FF;#00FFFF;#FF00FF" dur="8s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
+    
+    <!-- Clipping path to keep the scanner inside the UI -->
+    <clipPath id="panel-clip">
+      <rect x="10" y="10" width="780" height="300" rx="12" />
+    </clipPath>
   </defs>
 
   <style>
-    /* Glassmorphism Panel Styles */
     .panel { 
       fill: rgba(10, 15, 30, 0.4); 
       stroke: url(#glassGrad); 
       stroke-width: 1.5; 
       rx: 12; 
     }
-    
-    /* Text Styles */
     .title { 
       font-family: 'Courier New', Courier, monospace; 
       font-size: 16px; 
@@ -39,6 +45,8 @@
       font-size: 14px; 
       font-weight: bold; 
       fill: #00FFFF; 
+      opacity: 1;
+      animation: pulse 3s infinite alternate;
     }
     .stack-item { 
       font-family: 'Courier New', Courier, monospace; 
@@ -50,8 +58,24 @@
       stroke-width: 1; 
       opacity: 0.4; 
     }
+    .scanner {
+      fill: url(#glassGrad);
+      opacity: 0.15;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
   </style>
   
+  <!-- Animated Scanner Background -->
+  <g clip-path="url(#panel-clip)">
+    <rect x="10" y="10" width="780" height="40" class="scanner">
+      <animate attributeName="y" values="-30; 320; -30" dur="6s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
   <!-- DIRECTIVES PANEL -->
   <rect class="panel" x="10" y="10" width="780" height="120" />
   <text x="30" y="40" class="title">SYSTEM PROTOCOLS &amp; CURRENT DIRECTIVES</text>
@@ -68,13 +92,13 @@
   
   <!-- Stack Columns -->
   <text x="30" y="225" class="category">[ LANGUAGES ]</text>
-  <text x="30" y="245" class="stack-item">C++ // PYTHON // JAVA</text>
+  <text x="30" y="245" class="stack-item">C++ // PYTHON // JAVA // JAVASCRIPT</text>
 
-  <text x="300" y="225" class="category">[ FRONTEND ]</text>
-  <text x="300" y="245" class="stack-item">REACT // JAVASCRIPT // TAILWIND</text>
+  <text x="370" y="225" class="category">[ FRONTEND ]</text>
+  <text x="370" y="245" class="stack-item">REACT // TAILWIND // HTML5</text>
 
-  <text x="570" y="225" class="category">[ DATABASE ]</text>
-  <text x="570" y="245" class="stack-item">SQL</text>
+  <text x="630" y="225" class="category">[ DATABASE ]</text>
+  <text x="630" y="245" class="stack-item">POSTGRESQL // SQL</text>
 
   <text x="30" y="280" class="category">[ AI, VISION &amp; AUTONOMY ]</text>
   <text x="30" y="300" class="stack-item">PYTORCH // MATLAB // COMPUTER VISION</text>
