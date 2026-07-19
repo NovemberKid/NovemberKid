@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Primary Animated Header -->
-<img src="./assets/header.svg?v=1" width="100%" alt="Abha Singh Header">
+<img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/header.svg" width="100%" alt="Abha Singh Header">
 
 <br/>
 <hr/>
