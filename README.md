@@ -71,5 +71,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovemberKid&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" width="60%" alt="Top Languages" />
 </p>
-
+<img src="./assets/header.svg?v=1" width="100%" alt="Abha Singh J.A.R.V.I.S Header">
 </div>
+
