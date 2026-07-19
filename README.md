@@ -1,50 +1,11 @@
 <div align="center">
 
-<!-- Primary Animated Header -->
-<img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/header.svg" width="100%" alt="Abha Singh Header">
+<!-- Phase 1: Animated Header -->
+<img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/header.svg?v=2" width="100%" alt="Abha Singh Header">
 
-<br/>
-<hr/>
-<br/>
+<!-- Phase 2: Directives & Tech Stack Glasscard -->
+<img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/directives.svg?v=1" width="100%" alt="System Directives and Tech Stack">
 
-### 🖥️ SYSTEM PROTOCOLS & CURRENT DIRECTIVES
-
-<div align="left">
-  
-> **STATUS:** `ONLINE`
-> **LOCATION:** `VIT Bhopal`
-> **CURRENT_FOCUS:** `Scaling Frontend Architectures & Text-to-Image Synthesis`
-> **CORE_OBJECTIVE:** `Building sleek UI/UX experiences and developing full-stack solutions.`
-
-- ⚡ **Current Mission:** Preparing for 2026 placements and exploring the deep fusion of LLMs with Diffusion Transformers.
-- 🛠️ **Recent Upgrades:** Fine-tuning React, Tailwind CSS, and advanced algorithm problem-solving.
-- 🤝 **Collaboration Network:** Open to collaborating on web development and open-source AI initiatives.
-</div>
-
-<br/>
-<hr/>
-<br/>
-
-### ⚙️ WEAPONRY & TECH STACK
-
-<!-- Custom Badges with Black background and Cyan Logos -->
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=c%2B%2B&logoColor=00FFFF" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=00FFFF" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FFFF" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=00FFFF" alt="SQL" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=00FFFF" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=00FFFF" alt="CSS" />
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00FFFF" alt="JS" />
-  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00FFFF" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwindcss&logoColor=00FFFF" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=00FFFF" alt="Figma" />
-</p>
-
-<br/>
-<hr/>
 <br/>
 
 ### 📊 SYSTEM DIAGNOSTICS & TELEMETRY
@@ -71,4 +32,3 @@
 </p>
 
 </div>
-
