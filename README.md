@@ -1,13 +1,11 @@
 <div align="center">
 
-<!-- J.A.R.V.I.S. Boot Sequence Animation -->
-<a href="https://github.com/NovemberKid">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=J.A.R.V.I.S.+SYSTEM+INITIALIZED...;USER+IDENTIFIED%3A+ABHA+SINGH;DESIGNATION%3A+FRONTEND+DEVELOPER+%26+CSE+STUDENT;LOADING+LATEST+REPOSITORIES..." alt="Typing SVG" />
-</a>
+<!-- Primary Animated Header -->
+<img src="./assets/header.svg?v=1" width="100%" alt="Abha Singh Header">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tardis-sn/tardis-sn/master/assets/line-cyan.svg" width="80%" alt="separator">
-</p>
+<br/>
+<hr/>
+<br/>
 
 ### 🖥️ SYSTEM PROTOCOLS & CURRENT DIRECTIVES
 
@@ -23,9 +21,9 @@
 - 🤝 **Collaboration Network:** Open to collaborating on web development and open-source AI initiatives.
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tardis-sn/tardis-sn/master/assets/line-cyan.svg" width="80%" alt="separator">
-</p>
+<br/>
+<hr/>
+<br/>
 
 ### ⚙️ WEAPONRY & TECH STACK
 
@@ -45,9 +43,9 @@
   <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=00FFFF" alt="Figma" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tardis-sn/tardis-sn/master/assets/line-cyan.svg" width="80%" alt="separator">
-</p>
+<br/>
+<hr/>
+<br/>
 
 ### 📊 SYSTEM DIAGNOSTICS & TELEMETRY
 
@@ -71,6 +69,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovemberKid&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" width="60%" alt="Top Languages" />
 </p>
-<img src="./assets/header.svg?v=1" width="100%" alt="Abha Singh J.A.R.V.I.S Header">
+
 </div>
 
