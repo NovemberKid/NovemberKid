@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Phase 1: Animated Header (v6 forces cache refresh) -->
-<img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/header.svg?v=6" width="100%" alt="Abha Singh Header">
+<img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/header.svg?v=7" width="100%" alt="Abha Singh Header">
 
 <!-- Phase 2: Directives Glasscard -->
 <img src="https://raw.githubusercontent.com/NovemberKid/NovemberKid/main/assets/directives.svg?v=6" width="100%" alt="System Directives">
